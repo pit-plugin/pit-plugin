@@ -30,6 +30,10 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="pl.edu.uj.pitplugin.mutate" class="mutateAction" text="Mutater" description="mutates class">
+      <add-to-group group-id="RunContextGroupInner" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt M" second-keystroke="ctrl M"/>
+    </action>
   </actions>
 
 </idea-plugin>
